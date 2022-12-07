@@ -9,9 +9,9 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-T28R91G09L');
-    gtag('set', {
-      'user_id': 'user_' + Math.floor(Math.random() * (3 - 1) + 1),
+    gtag('config', 'G-T28R91G09L', {
+      user_id: 'user_' + Math.floor(Math.random() * (3 - 1) + 1),
+      thing_id: 'thing_' + Math.floor(Math.random() * (3 - 1) + 1)
     });
   </script>
 
